@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obrigado por baixar o aplicativo, espero que tenha gostado! :)\n\nPor quê as tirinhas tem esse formato?\n\nÉ o formato ideal para celulares, basta reparar no formato das telas da maioria dos celulares ou tablets, eles são quadrados ou retângulos em pé? Por isso, o formato normal (2x2) dificulta a leitura na maiorira dos celulares. Isso evita que a pessoa que a pessoa tenha que dar zoom ou ficar deitando/colocando em pé o celular toda vez que for ler.\n\n\nPor quê só posso usar até 4 quadros? \n\nMais do quê isso dificulta a leitura quando você compartilha a imagem em uma rede social. Quer fazer um teste? Compartilhe uma imagem com quatro quadros no Facebook, e veja como a imagem é encolhida para caber na tela. Com mais um quadro você teria dificuldades para ler além de que a grande maioria só usa isso.\n\n\nSe você encontrou algum bug, ou tem alguma sugestão de função ou meme para colocarmos aqui, manda uma mensagem na nossa página no Facebook (https://www.facebook.com/AppsAleatorios) e nós tentaremos adicionar o mais rápido possível.\n\nGostou? Então, se puder, avalie o app no Google Play." />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Avaliar" />
+
+    </LinearLayout>
+</ScrollView>
