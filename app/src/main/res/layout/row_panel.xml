@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/panel"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="10">
+
+        <ProgressBar
+            android:id="@+id/progressBarPanel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/imageMemePanel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dolan"
+            android:layout_weight="5"
+            android:adjustViewBounds="true"
+            android:focusable="false"/>
+
+        <TextView
+            android:id="@+id/textViewPanel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:padding="5dp"
+            android:text="@string/tap_to_change_text"
+            android:textColor="#000"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:focusable="false"/>
+
+        <ProgressBar
+            android:id="@+id/progressBarPanelRight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:layout_gravity="center_vertical"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/imageMemePanelRight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dolan"
+            android:layout_weight="5"
+            android:adjustViewBounds="true"
+            android:focusable="false"
+            android:visibility="gone"/>
+
+        </LinearLayout>
+
+</LinearLayout>
