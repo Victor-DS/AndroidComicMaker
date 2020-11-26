@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Comics Maker</string>
+
+    <!--    SIDE MENU    -->
+    <string name="title_section1">About</string>
+    <string name="title_section2">Rate this app</string>
+    <string name="title_section3">More apps</string>
+    <string name="title_section4">Buy extras</string>
+    <string name="title_section_invite_friends">Invite friends</string>
+
+    <!--    INVITE FRIENDS -->
+    <string name="invitation_title">Invite your friends!</string>
+    <string name="invitation_message">Invite your friends to create their own comics too.</string>
+    <string name="invitation_cta">It\'s also fun to read other people\'s comics.</string>
+
+    <string name="action_settings">Settings</string>
+
+    <array name="memes_categories">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Extras</item>
+    </array>
+
+    <string name="menu">Menu</string>
+    <string name="color">Color</string>
+    <string name="insert_text_here">Type your text here...</string>
+    <string name="edit_speech">Edit speech</string>
+    <string name="default_text">Default text</string>
+    <string name="text_options">Text options: </string>
+    <string name="tap_to_change_text">Tap to change</string>
+    <string name="title_activity_splash_screen">Welcome</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="sample_text">SAMPLE TEXT</string>
+    <string name="no_internet_connection">No internet connection!</string>
+    <string name="check_connection">Please, check your internet connection</string>
+    <string name="error_downloading">Error downloading images! Check your connection!</string>
+    <string name="double_press_to_exit">Press again to exit</string>
+
+    <string name="folder">Your Comics</string>
+    <string name="prefix">COMICS_</string>
+    <string name="saving">Saving image...</string>
+    <string name="saved_on_gallery">Saved on gallery</string>
+    <string name="failed_to_save">Failed to save image!</string>
+
+    <string name="save_image">Save</string>
+    <string name="share_image">Share</string>
+    <string name="left_side">Left side</string>
+    <string name="you_need_one">You need at least one panel!</string>
+    <string name="purchase_successful">You can now use the extra characters!</string>
+    <string name="failed_to_load_image">Failed to load image</string>
+    <string name="image_cancelled">Image loading cancelled</string>
+    <string name="tap_to_try_again">Tap to try again</string>
+    <string name="save_image_first">Please, save your image first.</string>
+    <string name="share_last_saved">We always share the last SAVED image!</string>
+
+    <!--    POP UPS  -->
+    <string name="about_title">About</string>
+    <string name="about_message">Thanks for downloading this app, I hope you\'ve enjoyed it!\n\n
+        All images used here were taken from the OpenClipart.org website, and they are all free
+        to use. That means you can use your comics in anyway you want it, without worrying about
+        copyright.\n\nIf you have ANY suggestion for this app, please email me at
+        vdsantiago1@gmail.com. I\'ll reply as soon as possible, and see what I can do about it.
+        \n\nOne last thing, if you really liked it, consider rating this app on Google Play.
+        (There should be a button that will take you there on the side menu)</string>
+    <string name="buy_premium_title">Buy extras</string>
+    <string name="buy_premium_message">You can buy more images to use on your comics for
+        only 99 cents. \n\nPlus, we\'ll remove the ads if you do, and you\'ll help
+        support this app. \n\nJust go to the side menu on the left, and click on
+        \"Buy extras\".</string>
+
+
+    <!--    TUTORIAL     -->
+    <string name="panel_one">Does anybody have a question on how to create a comic?</string>
+    <string name="panel_two">How do we select another character?</string>
+    <string name="panel_three">Just tap on it, and you\'ll be able to select from hundreds of
+        others.</string>
+    <string name="panel_four">You can also tap on the text to change it.</string>
+    <string name="panel_five">Can we add more panels?</string>
+    <string name="panel_six">Yes, there should be a + and - sign on the top right corner to add and
+        remove panels.</string>
+    <string name="panel_seven">There are also buttons there to save and share your image.</string>
+
+    <!--    Painel inicial  -->
+    <string name="initial_panel">Tap on the text to change it, or on the character to
+        choose another one.</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9977323179127163/3490562932</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+</resources>
